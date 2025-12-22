@@ -118,7 +118,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center cursor-pointer" onClick={() => navigate("/")}>
           <img src={assets.logo} alt="NauraCare Logo" className="h-10 mr-2" />
-          <span className="text-2xl font-bold text-blue-800">NauraCare</span>
+          <span className="text-2xl font-bold text-blue-800">MediCare</span>
         </div>
 
         {/* Desktop Navigation */}
