@@ -150,14 +150,14 @@ const Footer = () => {
                             <a href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Sitemap</a>
                         </div>
                         <p className="text-gray-500 text-sm mt-4 md:mt-0">
-                            Crafted with <span className="text-red-500">♥</span> by{' '}
+                            Created <span className="text-red-500">♥</span> by{' '}
                             <a
                                 href="https://www.linkedin.com/in/codewithkinu"
                                 className="text-blue-500 hover:underline"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Sahil
+                                Team :- CodeNix
                             </a>
                         </p>
                     </div>
