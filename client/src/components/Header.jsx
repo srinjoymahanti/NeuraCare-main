@@ -55,7 +55,7 @@ const Header = () => {
             <span className='absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500'></span>
           </a>
 
-          <button className='relative overflow-hidden border-2 border-blue-400/30 hover:border-blue-300 rounded-full flex items-center justify-center gap-3 px-7 py-3.5 text-white font-medium text-base transition-all duration-300 hover:shadow-lg group'>
+          {/* <button className='relative overflow-hidden border-2 border-blue-400/30 hover:border-blue-300 rounded-full flex items-center justify-center gap-3 px-7 py-3.5 text-white font-medium text-base transition-all duration-300 hover:shadow-lg group'>
             <a
               href="https://sahilfullstackportfolio.netlify.app"
               target="_blank"
@@ -68,7 +68,7 @@ const Header = () => {
               My Portfolio
             </a>
             <span className='absolute inset-0 bg-blue-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></span>
-          </button>
+          </button> */}
         </div>
 
         {/* Stats */}
@@ -148,7 +148,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* QR Code Badge – bottom left corner (only on large screens) */}
+      {/* QR Code Badge – bottom left corner (only on large screens)
       <div className='hidden lg:block absolute bottom-5 right-5 bg-white p-3 rounded-xl shadow-lg border border-gray-100 z-30'>
         <h3 className='text-sm font-semibold text-green-500 mb-2 flex items-center'>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -162,7 +162,7 @@ const Header = () => {
           className='w-24 h-24 object-contain mx-auto mb-1'
         />
         <p className='text-xs text-gray-600 text-center'>Scan to contact</p>
-      </div>
+      </div> */}
     </div>
   );
 };
