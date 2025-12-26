@@ -1,3 +1,4 @@
+import Pharmacy from "./pages/Pharmacy"
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
@@ -34,6 +35,7 @@ const App = () => {
       <div className='min-h-screen flex flex-col'>
         <main className='flex-grow mx-[5%] md:mx-[5%] py-4'>
           <Routes>
+            <Route path="/pharmacy" element={<Pharmacy />} />
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
@@ -48,6 +50,8 @@ const App = () => {
           </Routes>
         </main>
         <Footer />
+        
+
       </div>
     </>
   )
