@@ -92,7 +92,7 @@ const Footer = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <p className="text-gray-700 font-medium">hello@neuracare.com</p>
+                                    <p className="text-gray-700 font-medium">hello@medicare.com</p>
                                     <p className="text-sm text-gray-500 mt-1">We reply within 24 hours</p>
                                 </div>
                             </li>
@@ -105,7 +105,7 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <p className="text-gray-700 font-medium">123 Medical Drive</p>
-                                    <p className="text-sm text-gray-500 mt-1">New York, NY 10001</p>
+                                    <p className="text-sm text-gray-500 mt-1"> Kolkata, PS 70001</p>
                                 </div>
                             </li>
                         </ul>
@@ -141,7 +141,7 @@ const Footer = () => {
                 <div className="border-t border-gray-200 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-gray-500 text-sm mb-4 md:mb-0">
-                            &copy; {new Date().getFullYear()} Neuracare. All rights reserved.
+                            &copy; {new Date().getFullYear()} MediCare. All rights reserved.
                         </p>
                         <div className="flex flex-wrap justify-center gap-4">
                             <a href="#" className="text-gray-500 hover:text-blue-600 text-sm transition-colors">Terms of Service</a>
