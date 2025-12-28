@@ -1,0 +1,29 @@
+[33m56291c3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m feat: implement token-based redirection in Home and Login components
+[33m7595c12[m refactor: simplify Footer links and update token handling in AppContext and Login components
+[33md85ef08[m feat: update Footer component with new navigation links
+[33m0c3860e[m fix: update email address in Contact component
+[33mcc1e6d3[m fix: remove LinkedIn link from Footer component
+[33m97e333d[m Merge branch 'main' of https://github.com/srinjoymahanti/NeuraCare-main
+[33m2261f5a[m pharmacy add
+[33m81b25bc[m Merge branch 'main' of https://github.com/srinjoymahanti/NeuraCare-main
+[33mc6175de[m fix: update contact number in Footer component
+[33m5aa357b[m fix: update contact email and address in Footer component
+[33m131e257[m fix: update footer attribution from Sahil to Team :- CodeNix
+[33m5d3c575[m chore: add a blank line for better readability in index.html
+[33m54729a4[m chore: add a blank line for better readability in index.html
+[33mbdda368[m refactor: comment out unused button and QR code badge in Header component
+[33mb82cfc4[m Merge branch 'main' of https://github.com/srinjoymahanti/NeuraCare-main
+[33m49e5150[m Update title from NauraCare to MediCare in index.html
+[33m64b2a67[m fix: improve error handling for Cloudinary configuration and update payment gateway initialization
+[33m4e2db9b[m Ambulance update
+[33m26f8572[m feat: initialize server with Express, routes, and middleware
+[33mae6c106[m Rename brand from NauraCare to MediCare in Navbar component
+[33ma215fc2[m 8th Update
+[33m24f387f[m 7th Update
+[33m0a031e8[m 6th Update
+[33med1a394[m 5th Update
+[33m862c390[m 4th Update
+[33m0958227[m 3rd Update
+[33m388feb1[m 2nd Changes
+[33m31cbb21[m 1st Changes
+[33m3820ba8[m feat: initialize server with Express, add user, doctor, and admin routes
