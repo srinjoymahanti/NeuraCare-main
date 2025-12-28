@@ -54,10 +54,85 @@ const Footer = () => {
                             Quick Links
                         </h3>
                         <ul className="space-y-3">
-                            {['Home', 'About us', 'Services', 'Doctors', 'Contact us', 'Privacy policy'].map((item) => (
+                            {['Home',
+                            //  'About us', 'Services', 'Doctors', 'Contact us', 'Privacy policy'
+                            ].map((item) => (
                                 <li key={item}>
                                     <a
                                         href="#"
+                                        className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
+                                    >
+                                        <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                                        <span className="group-hover:translate-x-1 transition-transform">{item}</span>
+                                    </a>
+                                </li>
+                            ))}
+                            {['About us',
+                            //  'Services', 'Doctors', 'Contact us', 'Privacy policy'
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href="about"
+                                        className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
+                                    >
+                                        <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                                        <span className="group-hover:translate-x-1 transition-transform">{item}</span>
+                                    </a>
+                                </li>
+                            ))}
+                            {['Services'
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href="services"
+                                        className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
+                                    >
+                                        <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                                        <span className="group-hover:translate-x-1 transition-transform">{item}</span>
+                                    </a>
+                                </li>
+                            ))}
+                            {['Doctors'
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href="doctors"
+                                        className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
+                                    >
+                                        <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                                        <span className="group-hover:translate-x-1 transition-transform">{item}</span>
+                                    </a>
+                                </li>
+                            ))}
+                            {['Contact Us'
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href="contact"
+                                        className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
+                                    >
+                                        <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                                        <span className="group-hover:translate-x-1 transition-transform">{item}</span>
+                                    </a>
+                                </li>
+                            ))}
+                            {['Pharmacy'
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href="pharmacy"
+                                        className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
+                                    >
+                                        <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                                        <span className="group-hover:translate-x-1 transition-transform">{item}</span>
+                                    </a>
+                                </li>
+                            ))}
+                            {['Ambulance'
+                            ].map((item) => (
+                                <li key={item}>
+                                    <a
+                                        href="ambulance"
                                         className="text-gray-600 hover:text-blue-600 transition-all flex items-center group text-sm font-medium"
                                     >
                                         <span className="mr-2 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
