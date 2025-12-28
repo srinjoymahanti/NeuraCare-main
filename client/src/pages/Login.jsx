@@ -34,8 +34,10 @@ const Login = () => {
   }
 
   useEffect(() => {
-    if (token) navigate("/")
-  }, [token])
+  if (token && window.location.pathname !== '/') {
+    navigate("/")
+  }
+}, [token])
 
   return (
     <div
