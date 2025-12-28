@@ -152,7 +152,7 @@ const Footer = () => {
                         <p className="text-gray-500 text-sm mt-4 md:mt-0">
                             Created <span className="text-red-500">♥</span> by{' '}
                             <a
-                                href="https://www.linkedin.com/in/codewithkinu"
+                                href=""
                                 className="text-blue-500 hover:underline"
                                 target="_blank"
                                 rel="noopener noreferrer"
