@@ -20,7 +20,7 @@ const Login = () => {
       const endpoint = state === "signup" ? "/register" : "/login"
       const { data } = await axios.post(`${backendUrl}/api/user${endpoint}`, form)
       if (data.success) {
-        localStorage.setItem("token", data.token)
+        // localStorage.setItem("token", data.token)
         setToken(data.token)
         toast.success(`Account ${state === "signup" ? "created" : "logged in"} successfully`)
       } else {

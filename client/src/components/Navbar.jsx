@@ -112,14 +112,32 @@ const Navbar = () => {
             <FaUserMd /> Staff Login <FaExternalLinkAlt className="text-xs" />
           </a>
 
-          {!token && (
+          {/* {!token && (
             <button
               onClick={() => navigate("/login")}
               className="flex items-center gap-1 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm"
             >
               <HiOutlineLogin /> Login
             </button>
-          )}
+          )} */}
+          {!token ? (
+    <button
+      onClick={() => navigate("/login")}
+      className="flex items-center gap-1 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm"
+    >
+      <HiOutlineLogin /> Login
+    </button>
+  ) : (
+    <button
+      onClick={() => {
+        setToken(""); // Clear token (import setToken from AppContext)
+        navigate("/");
+      }}
+      className="flex items-center gap-1 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full text-sm"
+    >
+      Logout
+    </button>
+  )}
         </div>
 
         {/* MOBILE ICON */}
